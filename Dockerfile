@@ -1,4 +1,4 @@
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.9
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
 
 # Install MongoDB client and any other required dependencies
 RUN apt-get update && \
